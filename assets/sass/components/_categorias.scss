@@ -1,0 +1,65 @@
+/* ----- Estilo en Aside Categorias ---- */
+
+.categorias {
+    width: 30%;
+    @include flex-center;
+    flex-direction: column;
+
+    &__title {
+        margin-bottom: 0;
+    }
+
+    &__aside {
+        @include flex-center;
+        align-items: center;
+        padding: 0px 80px;
+        height: 100px;
+        width: 289px;
+        margin-top: 30px;
+        border-radius: 10px;
+        
+    }
+
+    &__aside--img {
+        width: 85px;
+        height: 74px;
+    }
+
+    &__aside--text {
+        font-size: 2rem;
+        color: white;
+        font-weight: bold;
+        line-height: 48px;
+    }
+
+    &__aside--link {
+        font-size: 1.5rem;
+        font-weight: 400;
+        line-height: 80px;
+    }
+}
+
+
+.html5 {
+    background-color: #e93e30;
+}
+
+.jscript {
+    background-color: #f7e018;
+}
+
+.css {
+    background-color: #299ed5;
+}
+
+.react {
+    background-color: #292c33;
+}
+
+.vue {
+    background-color: #67c770;
+}
+
+.bootstrap {
+    background-color: #563d7c;
+}

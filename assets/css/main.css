@@ -1,0 +1,292 @@
+@charset "UTF-8";
+/* ---- Estilos en el Body ---- */
+* {
+  font-family: "poppins", sans-serif;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+/* ---- Estilos en container ----- */
+.container {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1280px;
+  margin: 0 auto;
+}
+
+.container2 {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  max-width: 100%;
+  gap: 2rem 1rem;
+}
+
+#container-bootstrap {
+  background-color: #eeeeee;
+}
+
+/* ---- Estilos en Header ----- */
+header {
+  position: relative;
+  float: left;
+  width: 100%;
+}
+
+/* ---- Estilos en main ----- */
+.main {
+  padding: 40px 0 20px;
+  margin-left: 30px;
+  margin-right: 30px;
+}
+.main__title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  line-height: 42px;
+  padding-bottom: 20px;
+  max-width: 1280px;
+  margin: 0 auto;
+}
+
+.main2 {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1280px;
+  margin: 0 auto;
+  padding-bottom: 50px;
+}
+
+/*---- Estilo en Footer ---- */
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.footer__title {
+  font-size: 1.5rem;
+  font-weight: 400;
+  line-height: 30px;
+  margin-right: 200px;
+}
+
+/* ---- Estilos en  Novedades ---- */
+.principal__bloque1__img {
+  width: 603px;
+  height: 314px;
+  border-radius: 20px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.principal__bloque1__date {
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 27px;
+}
+.principal_bloque1__title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  line-height: 36px;
+}
+.principal__bloque2__logo {
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  margin-right: 15px;
+}
+.principal__bloque2__text {
+  font-size: 1.5rem;
+  font-weight: bold;
+  line-height: 20px;
+}
+
+.secundario_bloque1 {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  width: 40%;
+}
+.secundario__card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.secundario__card3 {
+  display: flex;
+  align-items: center;
+}
+
+.card2__date {
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 24px;
+}
+.card2__title {
+  font-size: 1rem;
+  font-weight: bold;
+  line-height: 30px;
+}
+
+.card3__img {
+  width: 40px;
+  height: 40px;
+  margin-right: 15px;
+  border-radius: 50%;
+}
+.card3__text {
+  font-size: 1rem;
+  font-weight: 500;
+  line-height: 24px;
+}
+
+.card__img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  width: 189px;
+  height: 145px;
+  border-radius: 20px;
+}
+
+/* .... Estilos en sección Populares ----  */
+.populares {
+  max-width: 50%;
+}
+.populares__title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  line-height: 42px;
+}
+.populares__card {
+  max-width: 300%;
+}
+
+.card__bloque1__img {
+  width: 298px;
+  height: 200px;
+  border-radius: 20px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+/* ----- Estilo en Aside Categorias ---- */
+.categorias {
+  width: 30%;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+.categorias__title {
+  margin-bottom: 0;
+}
+.categorias__aside {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 80px;
+  height: 100px;
+  width: 289px;
+  margin-top: 30px;
+  border-radius: 10px;
+}
+.categorias__aside--img {
+  width: 85px;
+  height: 74px;
+}
+.categorias__aside--text {
+  font-size: 2rem;
+  color: white;
+  font-weight: bold;
+  line-height: 48px;
+}
+.categorias__aside--link {
+  font-size: 1.5rem;
+  font-weight: 400;
+  line-height: 80px;
+}
+
+.html5 {
+  background-color: #e93e30;
+}
+
+.jscript {
+  background-color: #f7e018;
+}
+
+.css {
+  background-color: #299ed5;
+}
+
+.react {
+  background-color: #292c33;
+}
+
+.vue {
+  background-color: #67c770;
+}
+
+.bootstrap {
+  background-color: #563d7c;
+}
+
+/* ---- Estilo en sección subcripción ---- */
+.subscripcion-box {
+  background-color: #63af2b;
+  padding: 20px;
+  border-radius: 10px;
+  margin-left: 130px;
+  margin-bottom: 30px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  align-items: center;
+  width: 80%;
+  max-width: 600px;
+}
+.subscripcion-text {
+  color: white;
+  font-size: 1.2em;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.subscripcion-form {
+  display: flex;
+  width: 100%;
+}
+.subscripcion-form input[type=email] {
+  flex: 1;
+  padding: 10px;
+  border: none;
+  border-radius: 5px 0 0 5px;
+  font-size: 1em;
+}
+.subscripcion-form button {
+  padding: 10px 20px;
+  border: none;
+  background-color: #e0e0e0;
+  border-radius: 0 5px 5px 0;
+  font-size: 1em;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+.subscripcion-form button:hover {
+  background-color: #d0d0d0;
+}
+
+.logo__img {
+  position: relative;
+  float: left;
+  width: 70px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-right: 15px;
+  margin-left: 125px;
+  border-radius: 10px;
+}
+.logo__text {
+  color: #171717;
+  position: relative;
+  float: left;
+  margin-top: 35px;
+}/*# sourceMappingURL=main.css.map */

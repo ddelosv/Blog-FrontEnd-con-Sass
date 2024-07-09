@@ -1,0 +1,24 @@
+/* .... Estilos en sección Populares ----  */
+.populares {
+    max-width: 50%;
+
+
+    &__title {
+        font-size: 1.5rem;
+        font-weight: bold;
+        line-height: 42px;
+    }
+
+
+    &__card {
+        max-width: 300%;
+        
+    }
+}
+
+.card__bloque1__img {
+    width: 298px;
+    height: 200px;
+    border-radius: 20px;
+    object-fit: cover;
+}

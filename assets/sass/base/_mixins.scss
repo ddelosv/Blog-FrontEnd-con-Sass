@@ -1,0 +1,10 @@
+@mixin flex-center() {
+    display: flex;
+    justify-content: space-between;
+}
+
+@mixin posicion-r() {
+    position: relative;
+    float: left;
+}
+

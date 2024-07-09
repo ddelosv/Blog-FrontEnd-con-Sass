@@ -1,0 +1,19 @@
+// Estilos en el logo de encabezado y pie de pagina
+.logo {
+    &__img {
+        @include posicion-r;
+        width: 70px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        margin-right: 15px;
+        margin-left: 125px;
+        border-radius: 10px;
+    }
+
+    &__text {
+        color: #171717;
+        @include posicion-r;
+        margin-top: 35px;
+
+    }
+}
