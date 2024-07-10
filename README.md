@@ -28,9 +28,9 @@ Se ha añadido un componente de subscripción al final de la página principal, 
 
 ### 6. Uso de mixins y variables
 
-Permite escribir estilos de manera más eficiente y organizada.
+Se ha utilizado variables, mixis y nesting, que Permite escribir estilos de manera más eficiente y organizada.
 
-## Estructura del Proyecto
+## Estructura del Proyecto:
 
 ```plaintext
 Desafío - Blog FrontEnd con Sass
