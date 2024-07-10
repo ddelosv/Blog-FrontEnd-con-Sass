@@ -14,13 +14,14 @@ Todos los parciales han sido importados correctamente en el archivo de manifiest
 
 ### 3. Crear página de registro
 
-- **Página de Registro:** Se ha creado una página de registro que simula el registro de datos del usuario.
-- **Redirección al Login:** Al presionar el botón "Registrar", el usuario es redirigido a la página de Login.
+- [**Página de Registro:**](https://ddelosv.github.io/Blog-FrontEnd-con-Sass/registro.html "Title") Se ha creado una página de registro que simula el registro de datos del usuario.
+- [**Redirección al Login:**](https://ddelosv.github.io/Blog-FrontEnd-con-Sass/login.html "Title") Al presionar el botón "Registrar", el usuario es redirigido a la página de Login.
 - **Redirección al Inicio:** En la página de Login, al presionar el botón "Iniciar sesión", el usuario es redirigido a la página principal.
 
 ### 4. Crear la página de detalle del post
 
-Se ha creado una página de detalle **Boostrap**, y se ha agregado el enlace a esta página **(desde la imagen de bootstrap en la sección novedades en index.html).**
+Se ha creado una página de detalle [**Boostrap**](https://ddelosv.github.io/Blog-FrontEnd-con-Sass/bootstrap.html "Title"), y se ha agregado el enlace a esta página **(desde la imagen de bootstrap en la sección novedades en index.html).**
+ 
 
 ### 5. Crear el componente de subscripción
 
